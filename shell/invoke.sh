@@ -1,0 +1,1 @@
+ aws lambda invoke --invocation-type RequestResponse --function-name HelloWorldJavaa --payload \"PIGGY\" outputfile.txt --cli-binary-format raw-in-base64-out
